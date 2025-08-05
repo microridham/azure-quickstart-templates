@@ -540,7 +540,7 @@
       "subscriptionId": "[subscription().subscriptionId]",
       "dependsOn": [
         "witnessStorageAcc"
-       ]
+      ],
       "resourceGroup": "[resourceGroup().name]",
       "properties": {
         "mode": "Incremental",

@@ -538,6 +538,9 @@
       "apiVersion": "2021-04-01",
       "name": "WitnessStorageAccountBlobDataContributor-RoleAssignment",
       "subscriptionId": "[subscription().subscriptionId]",
+      "dependsOn": [
+        "witnessStorageAcc"
+       ]
       "resourceGroup": "[resourceGroup().name]",
       "properties": {
         "mode": "Incremental",
